@@ -12,3 +12,5 @@ console.log(favNumber);
 
 let result = firstName + secondName + favColor + favNumber;
 console.log(result);
+
+window.alert(result)
