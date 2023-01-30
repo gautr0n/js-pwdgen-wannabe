@@ -14,3 +14,18 @@
 .margin-bt{
     margin-bottom: 20px;
 }
+
+/*body*/
+body{
+    margin-top: 200px;
+}
+
+#resultPrint{
+    border-radius: 20px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    padding: 5px;
+    margin: auto;
+}
