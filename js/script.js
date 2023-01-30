@@ -1,16 +1,21 @@
-let firstName = prompt('inserisci il tuo nome');
+const resultPrint = document.getElementById('resultPrint');
+
+const firstName = prompt('inserisci il tuo nome');
 console.log(firstName);
 
-let secondName = prompt('inserisci il tuo cognome');
+const secondName = prompt('inserisci il tuo cognome');
 console.log(secondName);
 
-let favColor = prompt('inserisci il tuo colore preferito');
+const favColor = prompt('inserisci il tuo colore preferito');
 console.log(favColor);
 
-let favNumber = prompt('inserisci il tuo numero preferito');
+const favNumber = prompt('inserisci il tuo numero preferito');
 console.log(favNumber);
 
-let result = firstName + secondName + favColor + favNumber;
+const result = firstName + secondName + favColor + favNumber;
 console.log(result);
 
-window.alert(result)
+resultPrint.innerText = `La tua Password è ${result}`
+console.log(resultPrint);
+
+window.alert(result);
